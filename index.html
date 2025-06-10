@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meshram Industries - Excellence in Multiple Sectors</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h2>Meshram Industries</h2>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#businesses" class="nav-link">Our Business</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#products" class="nav-link">Our Products</a></li>
+          <li><a href="#contact" class="nav-link">Contact Us</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Meshram Industries</h1>
+        <p>Excellence in Trading, Electrical, Agriculture & More</p>
+        <a href="#businesses" class="cta-button">Explore Our Businesses</a>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Meshram Industries is a diversified business conglomerate with
+              over two decades of experience in various sectors. Founded with a
+              vision to provide quality products and services, we have grown to
+              become a trusted name in trading, electrical solutions,
+              agricultural technology, and agency services.
+            </p>
+            <p>
+              Our commitment to excellence, innovation, and customer
+              satisfaction has driven our success across multiple industries. We
+              believe in sustainable growth and contributing positively to the
+              communities we serve.
+            </p>
+            <div class="stats">
+              <div class="stat-item">
+                <h3>20+</h3>
+                <p>Years of Experience</p>
+              </div>
+              <div class="stat-item">
+                <h3>4</h3>
+                <p>Business Divisions</p>
+              </div>
+              <div class="stat-item">
+                <h3>1000+</h3>
+                <p>Satisfied Clients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Businesses Section -->
+    <section id="businesses" class="businesses">
+      <div class="container">
+        <h2 class="section-title">Our Businesses</h2>
+        <div class="business-grid">
+          <div class="business-card">
+            <div class="business-icon">
+              <i class="fas fa-handshake"></i>
+            </div>
+            <h3>Meshram Traders</h3>
+            <p>
+              Leading trading company specializing in various commodities and
+              goods. We provide reliable supply chain solutions with a focus on
+              quality and timely delivery.
+            </p>
+            <button
+              class="location-btn"
+              onclick="showLocation('Meshram Traders')"
+            >
+              <i class="fas fa-map-marker-alt"></i> Location
+            </button>
+          </div>
+
+          <div class="business-card">
+            <div class="business-icon">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <h3>Meshram Electricals</h3>
+            <p>
+              Complete electrical solutions provider offering installation,
+              maintenance, and supply of electrical equipment for residential,
+              commercial, and industrial projects.
+            </p>
+            <button
+              class="location-btn"
+              onclick="showLocation('Meshram Electricals')"
+            >
+              <i class="fas fa-map-marker-alt"></i> Location
+            </button>
+          </div>
+
+          <div class="business-card">
+            <div class="business-icon">
+              <i class="fas fa-building"></i>
+            </div>
+            <h3>Meshram Agencies</h3>
+            <p>
+              Professional agency services including business consulting,
+              documentation, and representation services to help businesses grow
+              and succeed in their respective markets.
+            </p>
+            <button
+              class="location-btn"
+              onclick="showLocation('Meshram Agencies')"
+            >
+              <i class="fas fa-map-marker-alt"></i> Location
+            </button>
+          </div>
+
+          <div class="business-card">
+            <div class="business-icon">
+              <i class="fas fa-seedling"></i>
+            </div>
+            <h3>Meshram Agrotech</h3>
+            <p>
+              Modern agricultural technology solutions providing farmers with
+              innovative tools, equipment, and knowledge to enhance productivity
+              and sustainable farming practices.
+            </p>
+            <button
+              class="location-btn"
+              onclick="showLocation('Meshram Agrotech')"
+            >
+              <i class="fas fa-map-marker-alt"></i> Location
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+      <div class="container">
+        <h2 class="section-title">Our Achievements</h2>
+        <div class="achievements-grid">
+          <div class="achievement-item">
+            <div class="achievement-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <h3>Industry Excellence Award</h3>
+            <p>
+              Recognized for outstanding performance in trading and electrical
+              sectors for three consecutive years.
+            </p>
+          </div>
+
+          <div class="achievement-item">
+            <div class="achievement-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <h3>ISO Certification</h3>
+            <p>
+              Achieved ISO 9001:2015 certification for quality management
+              systems across all business divisions.
+            </p>
+          </div>
+
+          <div class="achievement-item">
+            <div class="achievement-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>Customer Satisfaction</h3>
+            <p>
+              Maintained 95%+ customer satisfaction rate with over 1000
+              successful project completions.
+            </p>
+          </div>
+
+          <div class="achievement-item">
+            <div class="achievement-icon">
+              <i class="fas fa-leaf"></i>
+            </div>
+            <h3>Sustainability Leader</h3>
+            <p>
+              Recognized for implementing eco-friendly practices and
+              contributing to sustainable development goals.
+            </p>
+          </div>
+
+          <div class="achievement-item">
+            <div class="achievement-icon">
+              <i class="fas fa-medal"></i>
+            </div>
+            <h3>Regional Business Award</h3>
+            <p>
+              Winner of the Regional Business Excellence Award for innovation
+              and community contribution.
+            </p>
+          </div>
+
+          <div class="achievement-item">
+            <div class="achievement-icon">
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Top Rated Partner</h3>
+            <p>
+              Consistently rated as a top business partner by major suppliers
+              and distributors in the region.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+      <div class="container">
+        <h2 class="section-title">Our Products & Services</h2>
+        <div class="products-grid">
+          <div class="product-category">
+            <h3>Trading Products</h3>
+            <ul>
+              <li>Agricultural Commodities</li>
+              <li>Industrial Raw Materials</li>
+              <li>Consumer Goods</li>
+              <li>Import/Export Services</li>
+            </ul>
+          </div>
+
+          <div class="product-category">
+            <h3>Electrical Solutions</h3>
+            <ul>
+              <li>Power Distribution Systems</li>
+              <li>Lighting Solutions</li>
+              <li>Motor & Control Panels</li>
+              <li>Maintenance Services</li>
+            </ul>
+          </div>
+
+          <div class="product-category">
+            <h3>Agency Services</h3>
+            <ul>
+              <li>Business Consulting</li>
+              <li>Documentation Services</li>
+              <li>Legal Representation</li>
+              <li>Market Research</li>
+            </ul>
+          </div>
+
+          <div class="product-category">
+            <h3>Agricultural Technology</h3>
+            <ul>
+              <li>Smart Farming Equipment</li>
+              <li>Irrigation Systems</li>
+              <li>Crop Monitoring Solutions</li>
+              <li>Agricultural Consulting</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3>Address</h3>
+                <p>
+                  123 Industrial Area, Business District<br />Your City, State -
+                  123456
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h3>Phone</h3>
+                <p>+91 12345 67890<br />+91 98765 43210</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>Email</h3>
+                <p>
+                  info@meshramindustries.com<br />contact@meshramindustries.com
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form>
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <input type="text" placeholder="Subject" required />
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Meshram Industries</h3>
+            <p>Excellence in Trading, Electrical, Agriculture & More</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#businesses">Our Business</a></li>
+              <li><a href="#achievements">Achievements</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Our Businesses</h3>
+            <ul>
+              <li>Meshram Traders</li>
+              <li>Meshram Electricals</li>
+              <li>Meshram Agencies</li>
+              <li>Meshram Agrotech</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Meshram Industries. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Location Modal -->
+    <div id="locationModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modalTitle">Business Location</h2>
+        <div id="modalBody">
+          <p id="locationInfo"></p>
+          <div class="location-map">
+            <i class="fas fa-map-marked-alt"></i>
+            <p>Interactive map would be displayed here</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
