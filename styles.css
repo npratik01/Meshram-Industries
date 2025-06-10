@@ -41,7 +41,7 @@ body {
 }
 
 .nav-logo h2 {
-    color: #2c5530;
+    color: #1e3a8a;
     font-weight: 600;
     font-size: 1.5rem;
 }
@@ -61,7 +61,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #2c5530;
+    color: #1e3a8a;
 }
 
 .nav-link::after {
@@ -71,7 +71,7 @@ body {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #2c5530;
+    background-color: #1e3a8a;
     transition: width 0.3s ease;
 }
 
@@ -96,7 +96,7 @@ body {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(135deg, #2c5530 0%, #4a7c59 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,7 +139,7 @@ body {
     display: inline-block;
     padding: 15px 30px;
     background: #fff;
-    color: #2c5530;
+    color: #1e3a8a;
     text-decoration: none;
     border-radius: 50px;
     font-weight: 600;
@@ -156,7 +156,7 @@ body {
 .section-title {
     text-align: center;
     font-size: 2.5rem;
-    color: #2c5530;
+    color: #1e3a8a;
     margin-bottom: 3rem;
     font-weight: 600;
     position: relative;
@@ -170,7 +170,7 @@ body {
     transform: translateX(-50%);
     width: 60px;
     height: 4px;
-    background: #4a7c59;
+    background: #3b82f6;
     border-radius: 2px;
 }
 
@@ -211,7 +211,7 @@ body {
 
 .stat-item h3 {
     font-size: 2.5rem;
-    color: #2c5530;
+    color: #1e3a8a;
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
@@ -239,7 +239,7 @@ body {
     text-align: center;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    border-top: 4px solid #2c5530;
+    border-top: 4px solid #1e3a8a;
 }
 
 .business-card:hover {
@@ -250,7 +250,7 @@ body {
 .business-icon {
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, #2c5530, #4a7c59);
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -265,7 +265,7 @@ body {
 
 .business-card h3 {
     font-size: 1.5rem;
-    color: #2c5530;
+    color: #1e3a8a;
     margin-bottom: 1rem;
     font-weight: 600;
 }
@@ -277,7 +277,7 @@ body {
 }
 
 .location-btn {
-    background: linear-gradient(135deg, #2c5530, #4a7c59);
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -289,7 +289,7 @@ body {
 
 .location-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(44, 85, 48, 0.3);
+    box-shadow: 0 5px 15px rgba(30, 58, 138, 0.3);
 }
 
 /* Achievements Section */
@@ -320,7 +320,7 @@ body {
 .achievement-icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #2c5530, #4a7c59);
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -334,7 +334,7 @@ body {
 }
 
 .achievement-item h3 {
-    color: #2c5530;
+    color: #1e3a8a;
     margin-bottom: 1rem;
     font-weight: 600;
 }
@@ -360,11 +360,11 @@ body {
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    border-left: 4px solid #2c5530;
+    border-left: 4px solid #1e3a8a;
 }
 
 .product-category h3 {
-    color: #2c5530;
+    color: #1e3a8a;
     margin-bottom: 1.5rem;
     font-weight: 600;
     font-size: 1.3rem;
@@ -385,7 +385,7 @@ body {
     content: '✓';
     position: absolute;
     left: 0;
-    color: #4a7c59;
+    color: #3b82f6;
     font-weight: bold;
 }
 
@@ -410,13 +410,13 @@ body {
 
 .contact-item i {
     font-size: 1.5rem;
-    color: #2c5530;
+    color: #1e3a8a;
     margin-right: 1rem;
     margin-top: 0.2rem;
 }
 
 .contact-item h3 {
-    color: #2c5530;
+    color: #1e3a8a;
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
@@ -447,11 +447,11 @@ body {
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-color: #2c5530;
+    border-color: #1e3a8a;
 }
 
 .contact-form button {
-    background: linear-gradient(135deg, #2c5530, #4a7c59);
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
     color: white;
     border: none;
     padding: 1rem 2rem;
@@ -463,12 +463,12 @@ body {
 
 .contact-form button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(44, 85, 48, 0.3);
+    box-shadow: 0 5px 15px rgba(30, 58, 138, 0.3);
 }
 
 /* Footer */
 .footer {
-    background: #2c5530;
+    background: #1e3a8a;
     color: white;
     padding: 3rem 0 1rem;
 }
@@ -486,7 +486,7 @@ body {
 }
 
 .footer-section p {
-    color: #a8c8ac;
+    color: #93c5fd;
     line-height: 1.6;
 }
 
@@ -499,7 +499,7 @@ body {
 }
 
 .footer-section a {
-    color: #a8c8ac;
+    color: #93c5fd;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -533,7 +533,7 @@ body {
     text-align: center;
     padding-top: 2rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    color: #a8c8ac;
+    color: #93c5fd;
 }
 
 /* Modal Styles */
@@ -572,7 +572,7 @@ body {
 }
 
 .close:hover {
-    color: #2c5530;
+    color: #1e3a8a;
 }
 
 .location-map {
@@ -585,7 +585,7 @@ body {
 
 .location-map i {
     font-size: 3rem;
-    color: #2c5530;
+    color: #1e3a8a;
     margin-bottom: 1rem;
 }
 

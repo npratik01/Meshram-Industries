@@ -271,17 +271,15 @@ notificationStyles.textContent = `
         background: #f8f9fa;
         border-radius: 8px;
     }
-    
-    .detail-item i {
+      .detail-item i {
         font-size: 1.2rem;
-        color: #2c5530;
+        color: #1e3a8a;
         margin-right: 1rem;
         margin-top: 0.2rem;
         min-width: 20px;
     }
-    
-    .detail-item strong {
-        color: #2c5530;
+      .detail-item strong {
+        color: #1e3a8a;
     }
 `;
 document.head.appendChild(notificationStyles);
@@ -334,7 +332,7 @@ preloaderStyles.textContent = `
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(135deg, #2c5530, #4a7c59);
+        background: linear-gradient(135deg, #1e3a8a, #3b82f6);
         z-index: 9999;
         display: flex;
         align-items: center;
@@ -378,7 +376,7 @@ scrollToTopBtn.style.cssText = `
     right: 30px;
     width: 50px;
     height: 50px;
-    background: linear-gradient(135deg, #2c5530, #4a7c59);
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
     color: white;
     border: none;
     border-radius: 50%;
